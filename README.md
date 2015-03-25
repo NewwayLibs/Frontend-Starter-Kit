@@ -4,12 +4,12 @@
 Завязан на Ruby + Node.js + Gulp
 
 Включает в себя:
-* Bower
-* Sass
-* CoffeeScript
-* Jade
+* Bower (http://bower.io/)
+* Sass (https://ru.wikipedia.org/wiki/Sass)
+* CoffeeScript (http://coffeescript.org/)
+* Jade (http://jade-lang.com/)
+* Live Reload (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=ru)
 * Servers (web + api)
-* Live Reload
 
 
 ## Подготовка окружения
