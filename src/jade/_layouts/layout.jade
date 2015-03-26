@@ -21,17 +21,16 @@ html(xmlns='http://www.w3.org/1999/xhtml')
         //-meta(property='vk:app_id', content='')
 
         script(src="vendor/jquery/dist/jquery.min.js")
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js")
 
         script(src="js/modernizr.js")
         script(src="js/main.js")
 
 
-    body.guest
-        #container
-            block header
-                include ../_includes/header.jade
-            #main_wrap
-                block content
+    body
+        block header
+            include ../_includes/header.jade
+        block content
 
-            block footer
-                include ../_includes/footer.jade
+        block footer
+            include ../_includes/footer.jade
